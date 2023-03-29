@@ -12,6 +12,7 @@
     "cytoscape-cola": "2.5.1",
     "graphology": "0.25.0",
     "lodash": "4.17.15",
+    "node-sass": "4.4.0",
     "react": "16.8.4",
     "react-dom": "16.8.4",
     "react-markdown": "8.0.3",
