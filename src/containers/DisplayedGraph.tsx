@@ -10,11 +10,11 @@ import useKnowledgeGraph from "../hooks/useKnowledgeGraph";
 
 import displayConfigs from "../content/displayConfigs";
 
-
 const DisplayedGraph: React.FunctionComponent<{}> = ({}) => {
-  const displayConfig = displayConfigs["Intro"];
-
-  const [filters, setFilters] = React.useState(["Intro"]);
+  const displayConfig = Object.values(displayConfigs)[0];
+console.log(displayConfig);
+console.log(Object.keys(displayConfigs)[0]);
+  const [filters, setFilters] = React.useState([Object.keys(displayConfigs)[0]]);
   const [statements, setStatements] = React.useState([]);
   const [predicateConnections, setPredicateConnections] = React.useState([]);
   const [startingNode, setStartingNode] = React.useState();

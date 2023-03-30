@@ -1,21 +1,4 @@
 const displayConfigs = {
-  Intro: {
-    startingNode: "Kris Gano",
-    predicateConnections: [
-      "number 1 connects",
-      "number 2 connects",
-      "number 3 connects",
-      "number 4 connects",
-      "number 5 connects"
-    ],
-    statements: [
-      ["Kris Gano", "number 1 connects", "2"],
-      ["2", "number 2 connects", "3"],
-      ["3", "number 3 connects", "4"],
-      ["4", "number 4 connects", "5"],
-      ["5", "number 5 connects", "6"]
-    ]
-  },
   "Website Visitor": {
     startingNode: "Kris Gano",
     predicateConnections: ["contributed to", "with the role of"],
