@@ -13,7 +13,11 @@ function CheckboxOption({
         padding: ".2rem",
         backgroundColor: "black",
         textAlign: "left",
-        cursor: "pointer"
+        cursor: "pointer",
+	flex: "1 1",
+	display: "flex",
+	justifyContent: "center",
+	alignItems: "center"
       }}
       onClick={() => {
         const isChecked = checkedStates[checkedStateIndex];
@@ -69,7 +73,9 @@ export default function DisplaySelector({ options, setSelections }) {
         color: "white",
         padding: ".2rem",
 	display: "flex",
-	justifyContent: "space-between"
+	justifyContent: "space-around",
+	flexWrap: "wrap",
+	fontSize: "2rem"
       }}
     >
       {options.map((configLabel, index) => {
