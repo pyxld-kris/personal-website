@@ -60,17 +60,18 @@ export default function DisplaySelector({ options, setSelections }) {
   return (
     <div
       style={{
-        width: "10rem",
+        width: "90%",
         backgroundColor: "rgba(255,255,255,.5)",
         zIndex: 2,
         position: "fixed",
         left: "5%",
-        top: "5%",
+        bottom: "5%",
         color: "white",
-        padding: ".2rem"
+        padding: ".2rem",
+	display: "flex",
+	justifyContent: "space-between"
       }}
     >
-      <span style={{ color: "black", fontWeight: "bold" }}>I am:</span>
       {options.map((configLabel, index) => {
         return (
           <CheckboxOption
