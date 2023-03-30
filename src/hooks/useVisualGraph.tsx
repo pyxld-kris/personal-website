@@ -7,7 +7,7 @@ import useKnowledgeGraph, {
 
 import cytoscape from "cytoscape";
 import cola from "cytoscape-cola";
-import { displayInfoSidePanel } from "../containers/DisplayedGraph";
+import { displayInfoSidePanel } from "../components/SlidePanelContainer";
 import entityData from "../content/entityData";
 import entityDescriptions from "../content/entityDescriptions";
 
