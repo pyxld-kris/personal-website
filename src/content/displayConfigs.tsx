@@ -2,6 +2,7 @@ const displayConfigs = {
   "Default View": {
     startingNode: "Kris Gano",
     predicateConnections: ["contributed to", "with the role of"],
+    openingStatement: "Hi, I'm Kris!",
     statements: [
       // Dev Launchers
       [
@@ -163,6 +164,7 @@ const displayConfigs = {
       ["Kris Gano", "has the skills of", "Brand Identity Designer"]
     ]
   },
+  /*
   "Some Important Things": {
     startingNode: "Kris Gano",
     predicateConnections: ["contributed to", "with the role of"],
@@ -178,9 +180,11 @@ const displayConfigs = {
       ["Kris Gano", "contributed to", "DPinky", "with the role of", "lululul"]
     ]
   },
+  */
   "My Skills": {
     startingNode: "Kris Gano",
     predicateConnections: ["has the skills of"],
+    openingStatement: "I like to do things!",
     statements: [
       /*** Skills ***/
       ["Kris Gano", "has the skills of", "Founder"],
@@ -197,6 +201,7 @@ const displayConfigs = {
       ["Kris Gano", "has the skills of", "Brand Identity Designer"]
     ]
   },
+  /*
   "Sequence Test": {
     startingNode: "1",
     predicateConnections: [
@@ -214,6 +219,7 @@ const displayConfigs = {
       ["5", "number 5 connects", "6"]
     ]
   }
+  */
 };
 
 export default displayConfigs;

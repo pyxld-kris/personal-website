@@ -18,6 +18,7 @@ console.log(Object.keys(displayConfigs)[0]);
   const [statements, setStatements] = React.useState([]);
   const [predicateConnections, setPredicateConnections] = React.useState([]);
   const [startingNode, setStartingNode] = React.useState();
+  const [openingStatement, setOpeningStatement] = React.useState([]);
 
   // React.useEffect(() => {
   //   setTimeout(() => {
@@ -31,6 +32,7 @@ console.log(Object.keys(displayConfigs)[0]);
     setPredicateConnections(displayConfig.predicateConnections);
     setStartingNode(displayConfig.startingNode);
     setStatements(displayConfig.statements);
+    setOpeningStatement(displayConfig.openingStatement);
     //alert("done");
   }, [filters]);
 
@@ -64,6 +66,7 @@ console.log(Object.keys(displayConfigs)[0]);
         knowledgeGraph={knowledgeGraph}
         predicateConnections={predicateConnections}
         startingNode={startingNode}
+	openingStatement={openingStatement}
       />
     </div>
   );

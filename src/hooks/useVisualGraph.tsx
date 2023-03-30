@@ -17,7 +17,8 @@ let timeouts = [];
 export default function useVisualGraph(
   knowledgeGraph,
   startingNode,
-  predicateConnections
+  predicateConnections,
+  openingStatement
 ) {
   const [elements, setElements] = React.useState([]);
 
@@ -330,8 +331,8 @@ export default function useVisualGraph(
       displayGraphBasedOnEdgeRelations(startingNode, predicateConnections);
 
       addTimeout(() => {
-        if (knowledgeGraph.hasNode("Kris Gano")) {
-          addGraphConnection("Kris Gano", "Hey, I'm Kris!", false, 800, {
+        if (knowledgeGraph.hasNode(startingNode)) {
+          addGraphConnection(startingNode, openingStatement, false, 800, {
             position: { x: 1600, y: 300 },
             fontSize: 100,
             layer: 1,

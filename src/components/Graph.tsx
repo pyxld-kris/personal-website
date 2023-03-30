@@ -6,14 +6,14 @@ const Graph: React.FunctionComponent<{
   knowledgeGraph: any;
   predicateConnections: any;
   startingNode: any;
-}> = ({ knowledgeGraph, predicateConnections, startingNode }) => {
+}> = ({ knowledgeGraph, predicateConnections, startingNode, openingStatement }) => {
   const {
     graphContainer,
     visualGraphElements,
     setVisualGraphElements,
     addGraphConnection,
     displayGraphBasedOnEdgeRelations
-  } = useVisualGraph(knowledgeGraph, startingNode, predicateConnections);
+  } = useVisualGraph(knowledgeGraph, startingNode, predicateConnections, openingStatement);
 
   return <div className="graph" ref={graphContainer} />;
 };
