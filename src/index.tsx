@@ -10,21 +10,28 @@ function App() {
     <div className="App">
       <div
         style={{
+          position: "absolute",
+          zIndex: 999999,
+          left: "1rem",
+          top: "1rem",
+        }}
+      >
+        <a style={{ color: "white" }} href="https://linkedin.com/in/kris-gano/">
+          @Kris Gano
+        </a>
+      </div>
+      <div
+        style={{
           position: "fixed",
           left: 0,
           top: 0,
           width: "100%",
           height: "1rem",
           backgroundColor: "black",
-          zIndex: 100
+          zIndex: 100,
         }}
       ></div>
       <DisplayedGraph key={"displayed-graph"} />
-      <footer>
-        <a style={{ color: "white" }} href="https://linkedin.com/in/kris-gano/">
-          @Kris Gano
-        </a>
-      </footer>
     </div>
   );
 }
