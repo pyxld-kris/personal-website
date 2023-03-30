@@ -1,5 +1,5 @@
 const displayConfigs = {
-  "Website Visitor": {
+  "Default View": {
     startingNode: "Kris Gano",
     predicateConnections: ["contributed to", "with the role of"],
     statements: [
@@ -163,7 +163,7 @@ const displayConfigs = {
       ["Kris Gano", "has the skills of", "Brand Identity Designer"]
     ]
   },
-  Startup: {
+  "Some Important Things": {
     startingNode: "Kris Gano",
     predicateConnections: ["contributed to", "with the role of"],
     statements: [
@@ -178,7 +178,7 @@ const displayConfigs = {
       ["Kris Gano", "contributed to", "DPinky", "with the role of", "lululul"]
     ]
   },
-  "Technical Recruiter": {
+  "My Skills": {
     startingNode: "Kris Gano",
     predicateConnections: ["has the skills of"],
     statements: [
@@ -196,16 +196,6 @@ const displayConfigs = {
       ["Kris Gano", "has the skills of", "Chairman"],
       ["Kris Gano", "has the skills of", "Brand Identity Designer"]
     ]
-  },
-  "Seeking A Career In Tech": {
-    startingNode: "Kris Gano",
-    predicateConnections: ["contributed to", "with the role of"],
-    statements: []
-  },
-  Student: {
-    startingNode: "Kris Gano",
-    predicateConnections: ["contributed to", "with the role of"],
-    statements: []
   },
   "Sequence Test": {
     startingNode: "1",
