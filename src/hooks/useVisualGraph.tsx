@@ -367,8 +367,8 @@ export default function useVisualGraph(
 
         // Divisor to compute edge forces
         edgeElasticity: function (edge) {
-          if (edge.data().layer === 1) return 0.1;
-          else return 0.01;
+          if (edge.data().layer === 1) return 2;
+          else return 5;
         },
 
         // Node repulsion (non overlapping) multiplier
