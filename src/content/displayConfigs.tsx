@@ -47,6 +47,22 @@ const displayConfigs = {
         "with the role of",
         "Brand Identity Designer"
       ],
+      [
+        "Kris Gano",
+        "contributed to",
+        "Dev Launchers",
+        "with the role of",
+        "Solutions Architect"
+      ],
+      [
+        "Kris Gano",
+        "contributed to",
+        "Dev Launchers",
+        "with the role of",
+        "Software Engineer"
+      ],
+
+
 
       // Krafties
       [
@@ -123,7 +139,22 @@ const displayConfigs = {
         "contributed to",
         "BLANK Humanity",
         "with the role of",
-        "Visionary"
+        "Software Engineer"
+      ],  
+      [
+        "Kris Gano",
+        "contributed to",
+        "BLANK Humanity",
+        "with the role of",
+        "Solutions Architect"
+      ],
+
+      [
+        "Kris Gano",
+        "contributed to",
+        "BLANK Humanity",
+        "with the role of",
+        "Machine Learning"
       ],
 
       // Heartstrings
@@ -161,7 +192,11 @@ const displayConfigs = {
       ["Kris Gano", "has the skills of", "Indie Game Dev"],
       ["Kris Gano", "has the skills of", "President"],
       ["Kris Gano", "has the skills of", "Chairman"],
-      ["Kris Gano", "has the skills of", "Brand Identity Designer"]
+      ["Kris Gano", "has the skills of", "Brand Identity Designer"],
+      ["Kris Gano", "has the skills of", "Machine Learning"],
+      ["Kris Gano", "has the skills of", "Software Engineer"],
+      ["Kris Gano", "has the skills of", "Solutions Architect"],
+      ["Kris Gano", "has the skills of", "Solutions Engineer"],
     ]
   },
   /*
@@ -184,7 +219,7 @@ const displayConfigs = {
   "My Skills": {
     startingNode: "Kris Gano",
     predicateConnections: ["has the skills of"],
-    openingStatement: "I like to do things!",
+    openingStatement: "I like to do stuff",
     statements: [
       /*** Skills ***/
       ["Kris Gano", "has the skills of", "Founder"],
@@ -198,7 +233,11 @@ const displayConfigs = {
       ["Kris Gano", "has the skills of", "Indie Game Dev"],
       ["Kris Gano", "has the skills of", "President"],
       ["Kris Gano", "has the skills of", "Chairman"],
-      ["Kris Gano", "has the skills of", "Brand Identity Designer"]
+      ["Kris Gano", "has the skills of", "Brand Identity Designer"],
+      ["Kris Gano", "has the skills of", "Machine Learning"],
+      ["Kris Gano", "has the skills of", "Software Engineer"],
+      ["Kris Gano", "has the skills of", "Solutions Architect"],
+      ["Kris Gano", "has the skills of", "Solutions Engineer"],
     ]
   },
   /*

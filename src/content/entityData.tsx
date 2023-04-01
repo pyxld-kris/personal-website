@@ -15,40 +15,40 @@ const BASE_CONFIG = {
 const EXTRA_SMALL_CONFIG = {
   ...BASE_CONFIG,
   fontSize: 30,
-  width: 400,
-  height: 400,
+  width: 500,
+  height: 500,
   shrinkWidth: EXTRA_SMALL_SIZE,
   shrinkHeight: EXTRA_SMALL_SIZE
 };
 const SMALL_CONFIG = {
   ...BASE_CONFIG,
   fontSize: 30,
-  width: 400,
-  height: 400,
+  width: 500,
+  height: 500,
   shrinkWidth: SMALL_SIZE,
   shrinkHeight: SMALL_SIZE
 };
 const MEDIUM_CONFIG = {
   ...BASE_CONFIG,
   fontSize: 40,
-  width: 400,
-  height: 400,
+  width: 500,
+  height: 500,
   shrinkWidth: MEDIUM_SIZE,
   shrinkHeight: MEDIUM_SIZE
 };
 const LARGE_CONFIG = {
   ...BASE_CONFIG,
   fontSize: 50,
-  width: 400,
-  height: 400,
+  width: 500,
+  height: 500,
   shrinkWidth: LARGE_SIZE,
   shrinkHeight: LARGE_SIZE
 };
 const EXTRA_LARGE_CONFIG = {
   ...BASE_CONFIG,
   fontSize: 50,
-  width: 400,
-  height: 400,
+  width: 500,
+  height: 500,
   shrinkWidth: EXTRA_LARGE_SIZE,
   shrinkHeight: EXTRA_LARGE_SIZE
 };
@@ -201,7 +201,7 @@ const entityData = {
   "Community Builder": {
     ...LARGE_CONFIG,
     backgroundOpacity: 0
-  },
+  }, 
   "Blockchain Developer": {
     ...LARGE_CONFIG,
     backgroundOpacity: 0
@@ -209,7 +209,36 @@ const entityData = {
   Visionary: {
     ...SMALL_CONFIG,
     backgroundOpacity: 0
-  }
+  }, 
+  "Software Engineer": {
+    ...LARGE_CONFIG,
+    backgroundOpacity: 0
+  },  
+  "Machine Learning": {
+    ...LARGE_CONFIG,
+    backgroundOpacity: 0
+  }, 
+  "Solutions Engineer": {
+    ...LARGE_CONFIG,
+    backgroundOpacity: 0
+  }, 
+  "Solutions Architect": {
+    ...LARGE_CONFIG,
+    backgroundOpacity: 0
+  },
+  "Consultant": {
+    ...LARGE_CONFIG,
+    backgroundOpacity: 0
+  },
+  "Facilitator": {
+    ...LARGE_CONFIG,
+    backgroundOpacity: 0
+  },
+
+
+
+
+
 };
 
 export default entityData;
