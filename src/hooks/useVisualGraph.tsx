@@ -68,6 +68,7 @@ export default function useVisualGraph(
       extraData.width = extraData.width ? extraData.width : size;
       extraData.height = extraData.height ? extraData.height : size;
     }
+    extraData = {...entityData['base'], ...extraData };
     console.log(connectedNodeLabel);
     const nodeId = !isOnlyEdge
       ? connectedNodeLabel
@@ -119,6 +120,7 @@ export default function useVisualGraph(
             ? ""
             : nodeKey
           : nodeKey,
+	...entityData['base'],
         ...entityData[nodeKey]
       }
     });

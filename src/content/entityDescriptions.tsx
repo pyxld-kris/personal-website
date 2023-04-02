@@ -6,7 +6,7 @@ const entityDescriptions = {
 # Hi, I'm Kris  
 #### I love making cool stuff (like this website!)
 
-*A little backstory on the site: While working on a project heavily intwined with AI, I dove into the concept of "Knowledge Graphs". That deep dive became the data visualization/exploration tool this site is running on, which I've employed here to showcase my professional life in different ways.*
+*A little backstory on the site: While working on a project heavily intwined with AI, I dove into the concept of "Knowledge Graphs". That deep dive became the data visualization/exploration tool this site is running on, which I've employed here to showcase my professional life in different ways. You can view the source [here](https://github.com/pyxld-kris/personal-website).*
 
 ---
 
@@ -20,10 +20,10 @@ I've set out to help as many people as I can while building awesome stuff. My li
   ///////////////////////
   "Dev Launchers": `
 # Dev Launchers
-Dev Launchers is an open community of developers and creatives looking to get better at building things by... building things! We provide resources and opportunities for passionate people who may not otherwise have the opportunity to impact our future in a big way. Whether mentor, mentee, contributor, or members sharing experiences, everyone grows through building new things together. Dev Launchers is making the world a little brighter, one creation at a time.
+Dev Launchers is a nonprofit tech company working to build world changing software while preparing people to thrive in technical careers. It's an open community of developers and creatives looking to get better at building things by... building things! We provide resources and opportunities for passionate people who may not otherwise have the opportunity to impact our future in a big way. Whether mentor, mentee, contributor, or members sharing experiences, everyone grows through building new things together. Dev Launchers is making the world a little brighter, one creation at a time.
 
 ### Dev Launchers is: 
- - Developing an open source online platform which lowers the barrier to becoming tech-capable
+ - Developing an open source online platform which lowers the barrier to becoming tech-capable while building good things
  - Running in-person sessions to help members preparing to enter the workforce gain marketable skills and create real products
  - Building a network of developers, creatives, educational institutions, organizations, and corporations intended to generate opportunities for everyone in our community
   

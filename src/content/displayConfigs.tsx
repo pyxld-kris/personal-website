@@ -1,5 +1,5 @@
 const displayConfigs = {
-  "Default View": {
+  "Default": {
     startingNode: "Kris Gano",
     predicateConnections: ["contributed to", "with the role of"],
     openingStatement: "Hi, I'm Kris!",
@@ -25,6 +25,13 @@ const displayConfigs = {
         "Dev Launchers",
         "with the role of",
         "Chairman"
+      ],
+      [
+        "Kris Gano",
+        "contributed to",
+        "Dev Launchers",
+        "with the role of",
+        "Nonprofit Founder"
       ],
       [
         "Kris Gano",
@@ -60,6 +67,20 @@ const displayConfigs = {
         "Dev Launchers",
         "with the role of",
         "Software Engineer"
+      ],
+      [
+        "Kris Gano",
+        "contributed to",
+        "Dev Launchers",
+        "with the role of",
+        "UX/UI Design"
+      ],
+      [
+        "Kris Gano",
+        "contributed to",
+        "Dev Launchers",
+        "with the role of",
+        "Product"
       ],
 
 
@@ -172,8 +193,31 @@ const displayConfigs = {
         "contributed to",
         "Technical Consulting",
         "with the role of",
-        "Programmer"
+        "Software"
       ],
+      [
+        "Kris Gano",
+        "contributed to",
+        "Technical Consulting",
+        "with the role of",
+        "Startups"
+      ],
+      [
+        "Kris Gano",
+        "contributed to",
+        "Technical Consulting",
+        "with the role of",
+        "Nonprofits"
+      ],
+      [
+        "Kris Gano",
+        "contributed to",
+        "Technical Consulting",
+        "with the role of",
+        "Product"
+      ],
+
+
 
       /*** Corporate Structures ***/
       ["Dev Launchers", "is structured as", "Nonprofit"],
@@ -216,7 +260,7 @@ const displayConfigs = {
     ]
   },
   */
-  "My Skills": {
+  "Skills": {
     startingNode: "Kris Gano",
     predicateConnections: ["has the skills of"],
     openingStatement: "I like to do stuff",
@@ -238,6 +282,39 @@ const displayConfigs = {
       ["Kris Gano", "has the skills of", "Software Engineer"],
       ["Kris Gano", "has the skills of", "Solutions Architect"],
       ["Kris Gano", "has the skills of", "Solutions Engineer"],
+      ["Kris Gano", "has the skills of", "Nonprofit Founder"],
+      ["Kris Gano", "has the skills of", "UX/UI Design"],
+      ["Kris Gano", "has the skills of", "Facilitation"],
+    ]
+  },
+  "Impact": {
+    startingNode: "Kris Gano",
+    predicateConnections: ["impacted"],
+    openingStatement: "I'm here to help",
+    statements: [
+      /*** Skills ***/
+      ["Kris Gano", "impacted", "devlaunchers.org"],
+      ["Kris Gano", "impacted", "Krafties Incorporated"],
+      ["Kris Gano", "impacted", "BLANK Industries"],
+      ["Kris Gano", "impacted", "Pyxld Games"],
+      ["Kris Gano", "impacted", "Global Heartstrings"],
+      ["Kris Gano", "impacted", "Vid List"],
+      ["Kris Gano", "impacted", "Clutchbags"],
+      ["Kris Gano", "impacted", "TESS"],
+      ["Kris Gano", "impacted", "SolvED"],
+      ["Kris Gano", "impacted", "SPARK"],
+      ["Kris Gano", "impacted", "YNPN"],
+      ["Kris Gano", "impacted", "Wildlife Superheroes"],
+      ["Kris Gano", "impacted", "Forgotten Friends"],
+      ["Kris Gano", "impacted", "Changing Expectations"],
+      ["Kris Gano", "impacted", "American Youthworks"],
+      ["Kris Gano", "impacted", "Avem"],
+      ["Kris Gano", "impacted", "JAG Permits"],
+      ["Kris Gano", "impacted", "Austin Public Library"],
+      ["Kris Gano", "impacted", "Blanket"],
+      ["Kris Gano", "impacted", "AI Garden"],
+      ["Kris Gano", "impacted", "Convolve"],
+      ["Kris Gano", "impacted", "Second Life"],
     ]
   },
   /*
